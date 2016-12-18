@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FileSystemSerialization.Classes.DeserializationModules.BinaryDeserializer">
+    <Position X="2.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\DeserializationModules\BinaryDeserializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemSerialization.Classes.DeserializationModules.DataDeserializer">
+    <Position X="4.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\DeserializationModules\DataDeserializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemSerialization.Classes.DeserializationModules.XmlDeserializer">
+    <Position X="5.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\DeserializationModules\XmlDeserializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemSerialization.Classes.ModulsFactory.BinaryModulesFactory">
+    <Position X="11.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAABAAAA=</HashCode>
+      <FileName>Classes\ModulsFactory\BinaryModulesFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemSerialization.Classes.ModulsFactory.ModulsFactory">
+    <Position X="10" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAABAAAA=</HashCode>
+      <FileName>Classes\ModulsFactory\ModulsFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemSerialization.Classes.ModulsFactory.XmlModulesFactory">
+    <Position X="8.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAABAAAA=</HashCode>
+      <FileName>Classes\ModulsFactory\XmlModulesFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemSerialization.Classes.SerializeModules.BinarySerializer">
+    <Position X="14.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SerializeModules\BinarySerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemSerialization.Classes.SerializeModules.DataSerializer">
+    <Position X="15.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SerializeModules\DataSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemSerialization.Classes.SerializeModules.XmlDataSerializer">
+    <Position X="17.25" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SerializeModules\XmlDataSerializer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemSerialization.Classes.Builder" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Builder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FileSystemSerialization.Classes.ConfigureReader" BaseTypeListCollapsed="true">
+    <Position X="13.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ConfigureReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FileSystemSerialization.Classes.DataStore" BaseTypeListCollapsed="true">
+    <Position X="10" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAEAAAAAAJAAAAABIAAAACAAAgAAAAEAAAAAiAAAA=</HashCode>
+      <FileName>Classes\DataStore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FileSystemSerialization.Classes.IncorrectSerializeType">
+    <Position X="19.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\IncorrectSerializeType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemSerialization.Classes.Menu">
+    <Position X="10" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAIAAAAAAAAEAAACAAEoBQAAAAAAAAAAAAI=</HashCode>
+      <FileName>Classes\Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemSerialization.Classes.Person">
+    <Position X="21" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAQAAEAEAAQAQAAEAEAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FileSystemSerialization.Interfaces.DataStore.IDataReadable">
+    <Position X="6.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\DataStore\IDataReadable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileSystemSerialization.Interfaces.DataStore.IDataWritable">
+    <Position X="10" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\DataStore\IDataWritable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileSystemSerialization.Interfaces.DataStore.IPersonCreatable">
+    <Position X="11.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Interfaces\DataStore\IPersonCreatable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileSystemSerialization.Interfaces.DataStore.IPersonDelete">
+    <Position X="13.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Interfaces\DataStore\IPersonDelete.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileSystemSerialization.Interfaces.DataStore.IShow">
+    <Position X="8.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\DataStore\IShow.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileSystemSerialization.Interfaces.DataStore.IStorable" Collapsed="true">
+    <Position X="10" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="FileSystemSerialization.Interfaces.DataStore.IDataReadable" ManuallyRouted="true">
+      <Path>
+        <Point X="7.25" Y="8.5" />
+        <Point X="7.25" Y="7.184" />
+        <Point X="10.75" Y="7.184" />
+        <Point X="10.75" Y="6.361" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="FileSystemSerialization.Interfaces.DataStore.IPersonCreatable" ManuallyRouted="true">
+      <Path>
+        <Point X="12.5" Y="8.5" />
+        <Point X="12.5" Y="7.528" />
+        <Point X="10.75" Y="7.528" />
+        <Point X="10.75" Y="6.361" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="FileSystemSerialization.Interfaces.DataStore.IPersonDelete" ManuallyRouted="true">
+      <Path>
+        <Point X="14.25" Y="8.5" />
+        <Point X="14.25" Y="7.188" />
+        <Point X="10.75" Y="7.188" />
+        <Point X="10.75" Y="6.361" />
+      </Path>
+    </InheritanceLine>
+    <InheritanceLine Type="FileSystemSerialization.Interfaces.DataStore.IShow" ManuallyRouted="true">
+      <Path>
+        <Point X="9" Y="8.5" />
+        <Point X="9" Y="7.526" />
+        <Point X="10.75" Y="7.526" />
+        <Point X="10.75" Y="6.361" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\DataStore\IStorable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileSystemSerialization.Interfaces.IBuilderable">
+    <Position X="6.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IBuilderable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FileSystemSerialization.Interfaces.IConfigurable">
+    <Position X="13.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IConfigurable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="FileSystemSerialization.Enums.SerializeType">
+    <Position X="19.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAACAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\SerializeType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
